@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
+    "@faker-js/faker": "^10.0.0",
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.5.2",
+    "date-fns": "^4.1.0",
+    "dotenv": "^17.2.2"
+  },
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "test:report": "npx playwright show-report",
+    "test:debug": "npx playwright test --debug",
+    "test:search": "npx playwright test search.spec.ts searchAdvanced.spec.ts",
+    "test:validations": "npx playwright test validations.spec.ts",
+    "test:approvals": "npx playwright test approvals.spec.ts",
+    "test:manual-upload": "npx playwright test manualUpload.spec.ts",
+    "test:search-advanced": "npx playwright test searchAdvanced.spec.ts",
+    "test:login": "npx playwright test loginValidation.spec.ts",
+    "test:dashboard": "npx playwright test dashboard.spec.ts",
+    "test:incidents-tabs": "npx playwright test incidentsTabs.spec.ts",
+    "test:roles": "npx playwright test roleAccess.spec.ts"
+  }
+}

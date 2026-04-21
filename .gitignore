@@ -1,0 +1,24 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Sample documents
+/documents/
+
+# Generated test data
+test_results.json
+whitelistedPlates.json
+
+# TypeScript build output
+/dist/
+
+# Environment
+.env
+
+# Claude Code local settings
+.claude/
